@@ -10916,7 +10916,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   margin: 0 auto;
   display: flex;
   margin-top: 50px;
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Courgette', cursive;
 }
 
 .ftco-testimonial .provider .quotes .quote {
@@ -10934,6 +10934,15 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 .ftco-testimonial .provider .quotes .quote.quote-end {
   align-self: flex-end;
   line-height: 0;
+}
+
+@media (max-width: 767px) {
+  .ftco-testimonial .provider .quotes {
+    font-size: 16px;
+  }
+  .ftco-testimonial .provider .quotes .quote {
+  font-size: 70px;    
+  }
 }
 
 .ftco-testimonial .provider a {
